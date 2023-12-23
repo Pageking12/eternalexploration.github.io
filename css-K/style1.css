@@ -1,0 +1,115 @@
+@media only screen and (min-width: 720px){
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    #home{
+        background: url(g1.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    #about{
+        height: 90vh;
+    }
+    .picture1 img{
+        height: 350px;
+        width: 30%;
+        position: relative;
+        left: 34%;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    .text-box{
+        position: relative;
+        top: 350px;
+        margin-left: 110px;
+    }
+    .text-box h1{
+        font-size: 70px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    }
+    .container{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .con-box{
+        width:60%;
+        height: 90%;
+        border-radius: 5px;
+        position: relative;
+        bottom: 32%;
+        left: 2%;
+        box-shadow: 1px 1px 1px 1px black;
+    
+    }
+    .con-box img{
+        height: 250px;
+        width: 270px;
+        margin: 10px 10px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 10px 1px black;
+    }
+    .title-box{
+        position: relative;
+        left: 40%;
+        top: 23%;
+    }
+    .text p{
+        position: relative;
+        left: 2%;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    .contact-box{
+        position: relative;
+        background-color: rgb(233, 238, 243);
+        border-radius: 10px;
+        width: 33%;
+        height: 300px;
+        left: 65%;
+        top: 25%;
+        box-shadow: 2px 1px 1px 1px black;
+    }
+    .comment-box{
+         position: relative;
+         top: 20%;
+         left: 5%;
+    }
+    .comment-box input{
+        width: 60%;
+        border-radius: 5px;
+        border: none;
+    }
+    .comment-box button{
+        margin-left: 35px;
+        border-radius: 5px;
+        border: none;
+        width: 20%;
+        background-color: rgb(0, 140, 255);
+        
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 7%;
+        top: 10%;
+    }
+    .icons i{
+        margin-top: 35px;
+    }
+    .icons a{
+        margin-top: 45px;
+    }
+    .back button{
+        border: none;
+        border-radius: 50%;
+    }
+    .text-title{
+        color: yellow;
+        
+    }
+}
